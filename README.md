@@ -4,3 +4,4 @@ Function practice:
 
 - sum()
 - multiply()
+- sumAndMultiply()
