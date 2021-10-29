@@ -1,5 +1,6 @@
 # lab05a
 
-Function practice
+Function practice:
 
-- sum() function
+- sum()
+- multiply()
