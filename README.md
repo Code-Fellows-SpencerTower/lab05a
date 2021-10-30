@@ -5,3 +5,4 @@ Function practice:
 - sum()
 - multiply()
 - sumAndMultiply()
+- testArray()
