@@ -6,3 +6,4 @@ Function practice:
 - multiply()
 - sumAndMultiply()
 - testArray()
+- multiplyArray()
