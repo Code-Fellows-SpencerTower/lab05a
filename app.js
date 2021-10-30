@@ -76,13 +76,17 @@ Test this function by hand in the console to get it working, and when you think 
 let testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
-
+    // sumOfIndexes01 naming stands for the sum of sumArr[0] + sumArr[1]
+    let sumOfIndexes01 = sum(sumArr[0], sumArr[1])[0];
+    // get sum of sumArr indexes 0,1,2
+    let sumOfIndexes012 = sum(sumOfIndexes01, sumArr[2])[0];
+    return [sumOfIndexes012, `${sumArr} was passed in as an array of numbers, and ${sumOfIndexes012} is their sum.`];
     
 }
 
 // Here is the test for sumArray(); uncomment it to run it
 
-// testSumArray(testArray);
+testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
