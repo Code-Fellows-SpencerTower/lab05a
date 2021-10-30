@@ -105,7 +105,7 @@ Test this function by hand in the console to get it working, and when you think 
 function multiplyArray(multArr) { //eslint-disable-line
     // get product of multArr indexes 0, 1
     let productIndexes01 = multiply(multArr[0], multArr[1])[0];
-    // get product of multArr indexes 0, 1, 2
+    // get product of multArr indexes 0,1,2
     let productIndexes012 = multiply(productIndexes01, multArr[2])[0];
 
     return [productIndexes012, `The numbers ${multArr} have a product of ${productIndexes012}.`];
